@@ -1,17 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T03:32:05.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tumdh7vtO7HAzMWoOD20" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T03:36:08.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pjdVx7NZOcQ_9Sp_MnPo" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-9" target="G-gNkXl4P2mMCPprfXdg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-9" target="G-gNkXl4P2mMCPprfXdg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="G-gNkXl4P2mMCPprfXdg-9" value="SerialPortConnector" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" y="130" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="G-gNkXl4P2mMCPprfXdg-17" value="SerialPortSignal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="130" width="140" height="52" as="geometry" />
+          <mxGeometry x="425" y="130" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-18" target="G-gNkXl4P2mMCPprfXdg-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G-gNkXl4P2mMCPprfXdg-18" value="SerialPortMessageListener" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="310" width="140" height="52" as="geometry" />
+          <mxGeometry x="115" y="490" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-19" target="G-gNkXl4P2mMCPprfXdg-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-19" value="SerialPortDispatcher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="410" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-36" target="G-gNkXl4P2mMCPprfXdg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-36" value="SerialPortRspCache" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="280" width="170" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gNkXl4P2mMCPprfXdg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G-gNkXl4P2mMCPprfXdg-19" target="G-gNkXl4P2mMCPprfXdg-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
